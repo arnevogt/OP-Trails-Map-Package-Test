@@ -1,0 +1,19 @@
+{
+    "name": "map-package",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.ts",
+    "scripts": {
+        "build": "build-pioneer-package"
+    },
+    "dependencies": {
+        "@open-pioneer/runtime": "catalog:",
+        "@open-pioneer/coordinate-viewer": "catalog:",
+        "@open-pioneer/map": "catalog:",
+        "@open-pioneer/map-navigation": "catalog:",
+        "ol": "catalog:"
+    },
+    "devDependencies": {
+        "@open-pioneer/test-utils": "catalog:"
+    }
+}

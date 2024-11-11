@@ -1,0 +1,9 @@
+{
+    "name": "map-package-app",
+    "private": true,
+    "dependencies": {
+        "@open-pioneer/chakra-integration": "catalog:",
+        "@open-pioneer/runtime": "catalog:",
+        "map-package": "workspace:*"
+    }
+}

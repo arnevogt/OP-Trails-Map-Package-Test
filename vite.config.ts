@@ -46,7 +46,7 @@ export default defineConfig(({ mode }) => {
 
                 // Additional directories to include as html (must contain index.html files)
                 sites: [
-                    "sites/empty",
+                    "sites/map-package-app",
 
                     // Include sample sites in the build
                     ...sampleSites
